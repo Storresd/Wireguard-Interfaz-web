@@ -3,8 +3,8 @@ version: "3.8"
 services:
   wg-easy:
     environment:
-      - WG_HOST=127.0.0.1
-      - PASSWORD=12QWasZX,.-123
+      - WG_HOST=127.0.0.1 #IP local del servidor
+      - PASSWORD=password
     image: ghcr.io/wg-easy/wg-easy
     container_name: wg-easy
     volumes:
